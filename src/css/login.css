@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.login-box {
+  margin: auto auto;
+  /* transform: translate(-50%,-50%); */
+  background: white;
+  width: 20%;
+  padding: 1em;
+  text-align: center;
+}
+
+.login-box input {
+  display: block;
+  border-radius: 5px;
+  margin: 1em auto;
+  border: 1px solid #dbdbdb;
+}
+
+.login-box input[type='submit'] {
+  background: #3897f0;
+  border-color: #3897f0;
+  color: white;    
+}
+
+.error{
+  margin: 0 auto;
+  width: 95%;
+  color: white;
+  display: none;
+}
+.error.active{
+  background: red;
+  padding: 10px 15px;
+  border-radius: 5px;
+  display: block;
+}
+
+.header-logo{
+  padding: 0;
+}
